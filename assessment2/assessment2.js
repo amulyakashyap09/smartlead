@@ -33,6 +33,7 @@ async function retryWithBackoff(apiCall, maxRetries) {
 
 // External API Call Simulation using node-fetch
 async function callExternalApi(taskData) {
+    // this is dummy , don;t forget to replace with actual API call
     const apiUrl = `https://api.example.com/process-task/${taskData.id}`;
     const response = await fetch(apiUrl, { method: 'POST', body: JSON.stringify(taskData) });
     if (!response.ok) throw new Error('API call failed');

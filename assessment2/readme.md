@@ -100,6 +100,8 @@ async function processTask(job, taskType) {
 
 3. Ensure Redis is running on your local machine or specify the Redis server connection in your environment variables.
 
+4. Don;t forget to replace with actual API call in function `callExternalApi`
+
 ### Running the Application
 
 1. Start the Redis server.
