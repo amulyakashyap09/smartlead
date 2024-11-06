@@ -1,0 +1,22 @@
+{
+  "name": "smartlead",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bull": "^4.16.4",
+    "joi": "^17.13.3",
+    "node-fetch": "^3.3.2",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "redis-mock": "^0.56.3"
+  }
+}
