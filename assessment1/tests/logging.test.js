@@ -1,4 +1,4 @@
-const { logEvent } = require('../services/loggingService');
+const { logEvent } = require('../services/logging');
 const { queueEvent } = require('../utils/queue');
 
 jest.mock('../utils/queue');

@@ -1,7 +1,7 @@
 const Queue = require('bull');
 const fetch = require('node-fetch');
 const Redis = require('redis-mock');
-const { retryWithBackoff, callExternalApi, processTask, addTaskToQueue } = require('./taskProcessingSystem'); // Update this path if needed
+const { retryWithBackoff, callExternalApi, processTask, addTaskToQueue } = require('./assessment2');
 
 jest.mock('node-fetch');
 jest.mock('bull');

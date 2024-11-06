@@ -45,7 +45,7 @@ The architecture flow is designed to balance performance and resilience, address
 
 ## Code Structure
 
-### `taskProcessingSystem.js`
+### `assessment2.js`
 
 - **`retryWithBackoff`**: Implements retry logic with exponential backoff to handle transient errors in external API calls.
 - **`callExternalApi`**: Sends the task data to an external API and handles the response.
